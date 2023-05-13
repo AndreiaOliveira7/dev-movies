@@ -1,0 +1,44 @@
+{
+  "hash": "8861578b",
+  "browserHash": "6c63b2db",
+  "optimized": {
+    "axios": {
+      "src": "../../dev-movies/node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "c564adb2",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../dev-movies/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4daa2b8b",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../dev-movies/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "b1d4c0a3",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../dev-movies/node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "3bab7f23",
+      "needsInterop": false
+    },
+    "styled-components": {
+      "src": "../../dev-movies/node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "file": "styled-components.js",
+      "fileHash": "e310d64a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-UF76ICE6": {
+      "file": "chunk-UF76ICE6.js"
+    },
+    "chunk-DFKQJ226": {
+      "file": "chunk-DFKQJ226.js"
+    }
+  }
+}
