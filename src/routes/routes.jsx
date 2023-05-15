@@ -9,9 +9,9 @@ function Router() {
   return (
     <Routes>
       <Route element={<DefaultLayout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/filmes" element={<Movies />} />
-        <Route path="/series" element={<Series />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/filmes" element={<Movies />} />
+        <Route exact path="/series" element={<Series />} />
       </Route>
     </Routes>
   );
